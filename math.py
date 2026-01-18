@@ -1,4 +1,9 @@
-a=int(input("enter first number:"))
-b=int(input("enter second number:"))
+a=float(input("enter first number:"))
+b=float(input("enter second number:"))
 print(f"addition:{a+b}")
 print(f"subtraction:{a-b}")
+print(f"multiplication:{a*b}")
+if b!=0:
+    print(f"division:{a/b}")
+else:
+    print("division by zero!")
